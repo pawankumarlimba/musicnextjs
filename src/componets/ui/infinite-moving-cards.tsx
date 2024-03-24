@@ -11,9 +11,10 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
+    title: string;
     quote: string;
     name: string;
-    title: string;
+    
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -99,17 +100,20 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
+              <div className="flex flex-col gap-1">
+              <span className=" text-2xl leading-[1.6] text-black font-normal bold-text">
+                    {item.title}
+                  </span>
               <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
                 {item.quote}
               </span>
+              </div>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
                   <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
                     {item.name}
                   </span>
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.title}
-                  </span>
+                  
                 </span>
               </div>
             </blockquote>

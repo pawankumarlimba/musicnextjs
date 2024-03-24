@@ -1,64 +1,94 @@
+
 {
     "courses":[
         {
             "id":1,
-            "title":"Bachelor Music Courses",
+            "title":"React.js",
             "slug":"xyz",
-            "description":"The course can be provided through different specializations like in Hindustani Music, vocal music, Instrumental music etc. Major subjects which are involved in this are History of Music, Music Theory and Music Interpretation and others as well.",
-            "price":99,
+            "description":"Proficient in building interactive user interfaces and single-page applications using React.js. Experienced in state management with Redux and context API."  ,
+             "price":99,
             "instrucyor":"xyz",
             "isfeatured":true,
-            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaKzX9Z93F_GDIFPqkI2-Qq6fNNUI91RS4Eep3DI_hntZ2kFU8KP6oET6FGQsT8ngVvoU&usqp=CAU"
+            "image":"/uploads/react.js-img.png"
         },
         {
             "id":2,
-            "title":"Bachelor Music Courses",
+            "title":"Node.js",
             "slug":"xyz",
-            "description":"The course can be provided through different specializations like in Hindustani Music, vocal music, Instrumental music etc. Major subjects which are involved in this are History of Music, Music Theory and Music Interpretation and others as well.",
-            "price":99,
+            "description":"Skilled in server-side JavaScript development using Node.js. Familiar with creating RESTful APIs, handling asynchronous operations, and using npm packages.",
+              "price":99,
             "instrucyor":"xyz",
             "isfeatured":true,
-            "image":"data:image/jpeg;base64,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"
-        },
+            "image":"/uploads/nodejs.webp"
+          },
         {
             "id":3,
-            "title":"Bachelor Music Courses",
+            "title":"Express.js",
             "slug":"xyz",
-            "description":"The course can be provided through different specializations like in Hindustani Music, vocal music, Instrumental music etc. Major subjects which are involved in this are History of Music, Music Theory and Music Interpretation and others as well.",
-            "price":99,
+            "description":"Experienced in developing web applications and RESTful APIs using Express.js. Skilled in routing, middleware integration, and handling HTTP requests and responses.",
+               "price":99,
             "instrucyor":"xyz",
             "isfeatured":true,
-            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkmeI1BHsojEcJ4gma73mC_D6vwcAYdR6JKJsCw4JctX1XVJioBHWnQDRn2W8-bNYBOfw&usqp=CAU"
-        },
+            "image":"/uploads/Express_JS.jpeg"
+          },
         {
             "id":4,
-            "title":"Bachelor Music Courses",
+            "title":"Next.js",
             "slug":"xyz",
-            "description":"The course can be provided through different specializations like in Hindustani Music, vocal music, Instrumental music etc. Major subjects which are involved in this are History of Music, Music Theory and Music Interpretation and others as well.",
-            "price":99,
+            "description":"Proficient in building server-side rendered and statically generated React applications with Next.js. Familiar with dynamic routing, data fetching, and serverless deployment.",
+               "price":99,
             "instrucyor":"xyz",
             "isfeatured":true,
-            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBg6WMDfXzh_TaKo262dm89DLCUT5qquHsRtkDqAMVeOFUUgjDRHSNG5Gt5cLAKMefUI0&usqp=CAU"
-        },
-        {
-            "id":5,
-            "title":"Bachelor Music Courses",
-            "slug":"xyz",
-            "description":"The course can be provided through different specializations like in Hindustani Music, vocal music, Instrumental music etc. Major subjects which are involved in this are History of Music, Music Theory and Music Interpretation and others as well.",
-            "price":99,
-            "instrucyor":"xyz",
-            "isfeatured":true,
-            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2zLdlyBuOljBLhhH51VXO1QtFytGvbWSvmkT02M5W3DN4NchGX19pfSoMhf4nviSwEOA&usqp=CAU"
-        },
+            "image":"/uploads/next.png"
+          },
+        { "id":5,
+        "title":"MongoDB",
+        "slug":"xyz",
+        "description":"Proficient in MongoDB database management. Experienced in schema design, CRUD operations, indexing, and aggregation pipelines.",
+           "price":99,
+        "instrucyor":"xyz",
+        "isfeatured":true,
+        "image":"/uploads/mongodb4.webp"
+       },
         {
             "id":6,
-            "title":"Bachelor Music Courses",
+            "title":"C/C++",
             "slug":"xyz",
-            "description":"The course can be provided through different specializations like in Hindustani Music, vocal music, Instrumental music etc. Major subjects which are involved in this are History of Music, Music Theory and Music Interpretation and others as well.",
-            "price":99,
+            "description":"Proficient in programming with C/C++. Experienced in algorithm design, data structures, memory management, and low-level system programming.",
+               "price":99,
             "instrucyor":"xyz",
-            "isfeatured":false,
-            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCv50zDNFO9Za0BUqSc_hQIXwXLx6nR0r1ERph3Vxt3h1P_dbQTJnuUQyIs_cLpvG7HB0&usqp=CAU"
-        }
+            "isfeatured":true,
+            "image":"/uploads/c++2.png"
+          },
+          {
+            "id":7,
+            "title":"JavaScript",
+            "slug":"xyz",
+            "description":"Proficient in object-oriented programming concepts such as encapsulation, inheritance, polymorphism, and abstraction. Experienced in applying OOP principles to software design and development.",
+               "price":99,
+            "instrucyor":"xyz",
+            "isfeatured":true,
+            "image":"/uploads/javascript.png"
+          },
+          {
+            "id":8,
+            "title":"Object-Oriented Programming (OOP)",
+            "slug":"xyz",
+            "description":"Proficient in object-oriented programming concepts such as encapsulation, inheritance, polymorphism, and abstraction. Experienced in applying OOP principles to software design and development.",
+               "price":99,
+            "instrucyor":"xyz",
+            "isfeatured":true,
+            "image":"/uploads/oops2.png"
+          },
+          {
+            "id":9,
+            "title":"TypeScript",
+            "slug":"xyz",
+            "description":"Skilled in using TypeScript to enhance JavaScript codebase with static typing, improving code maintainability, and catching errors early in the development process.",
+           "price":99,
+            "instrucyor":"xyz",
+            "isfeatured":true,
+            "image":"/uploads/typescript.jpg"
+          }
     ]
 }

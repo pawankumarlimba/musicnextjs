@@ -20,20 +20,18 @@ function Navbar() {
           </MenuItem>
         </Link>
         
-          <MenuItem setActive={setActive} active={active} item="Our Courses">
+          <MenuItem setActive={setActive} active={active} item="Skills">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
-            <HoveredLink href='/courses'>All Courses</HoveredLink>
-            <HoveredLink href='/courses'>Basic music Theory</HoveredLink>
-            <HoveredLink href='/courses'>Advance Composition</HoveredLink>
-            <HoveredLink href='/courses'>Songwriting</HoveredLink>
-            <HoveredLink href='/courses'>Music Production</HoveredLink>
+            <HoveredLink href='/courses'>All Skills</HoveredLink>
+            <HoveredLink href='/project'>My Projects</HoveredLink>
+            
           </div>
           </MenuItem>
        
         
         
           <Link href={'/contact'}>
-          <MenuItem setActive={setActive} active={active} item="Contact Us">
+          <MenuItem setActive={setActive} active={active} item="Contact me">
             
 
           </MenuItem>

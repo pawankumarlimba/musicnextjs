@@ -9,7 +9,7 @@ import coursesData from "@/data/music_corses.json"
 function page() {
   return (
     <div className="min-h-screen bg-black py-12 pt-36">
-        <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">All Course {coursesData.courses.length}</h1>
+        <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">Areas of Expertise</h1>
         <div className="flex flex-wrap justify-center">
             {coursesData.courses.map((course)=>(
                 <CardContainer className="inter-var m-4 ">
@@ -36,22 +36,7 @@ function page() {
                       alt={course.title}
                     />
                   </CardItem>
-                  <div className="flex justify-between items-center mt-20">
-                    <CardItem
-                      translateZ={20}
-                      as="button"
-                      className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
-                    >
-                      Try now →
-                    </CardItem>
-                    <CardItem
-                      translateZ={20}
-                      as="button"
-                      className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-                    >
-                      Sign up
-                    </CardItem>
-                  </div>
+                  
                 </CardBody>
               </CardContainer>
             ))}

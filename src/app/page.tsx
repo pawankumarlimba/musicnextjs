@@ -1,7 +1,6 @@
 import FeacheredSection from "@/componets/FeacheredSection";
 import Footer from "@/componets/Footer";
 import Herosection from "@/componets/Herosection";
-import Insterctor from "@/componets/Insterctor";
 import Testmovingcards from "@/componets/Testmovingcards";
 import Upcomingweb from "@/componets/Upcomingweb";
 import Whychooseus from "@/componets/Whychooseus";
@@ -17,7 +16,7 @@ export default function Home() {
     <Whychooseus/>
     <Testmovingcards/>
     <Upcomingweb/>
-    <Insterctor/>
+    
     <Footer/>
    </main>
   );
