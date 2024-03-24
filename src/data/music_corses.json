@@ -77,7 +77,7 @@
             "description":"Proficient in object-oriented programming concepts such as encapsulation, inheritance, polymorphism, and abstraction. Experienced in applying OOP principles to software design and development.",
                "price":99,
             "instrucyor":"xyz",
-            "isfeatured":true,
+            "isfeatured":false,
             "image":"/uploads/oops2.png"
           },
           {
