@@ -31,25 +31,28 @@
             "isfeatured":true,
             "image":"/uploads/Express_JS.jpeg"
           },
-        {
-            "id":4,
-            "title":"Next.js",
-            "slug":"xyz",
-            "description":"Proficient in building server-side rendered and statically generated React applications with Next.js. Familiar with dynamic routing, data fetching, and serverless deployment.",
-               "price":99,
-            "instrucyor":"xyz",
-            "isfeatured":true,
-            "image":"/uploads/next.png"
-          },
-        { "id":5,
-        "title":"MongoDB",
+        
+       
+       {
+        "id":4,
+        "title":"Next.js",
         "slug":"xyz",
-        "description":"Proficient in MongoDB database management. Experienced in schema design, CRUD operations, indexing, and aggregation pipelines.",
+        "description":"Proficient in building server-side rendered and statically generated React applications with Next.js. Familiar with dynamic routing, data fetching, and serverless deployment.",
            "price":99,
         "instrucyor":"xyz",
         "isfeatured":true,
-        "image":"/uploads/mongodb4.webp"
-       },
+        "image":"/uploads/next.png"
+      },
+       {
+        "id":9,
+        "title":"TypeScript",
+        "slug":"xyz",
+        "description":"Skilled in using TypeScript to enhance JavaScript codebase with static typing, improving code maintainability, and catching errors early in the development process.",
+       "price":99,
+        "instrucyor":"xyz",
+        "isfeatured":true,
+        "image":"/uploads/typescript.jpg"
+      },
         {
             "id":6,
             "title":"C/C++",
@@ -60,6 +63,15 @@
             "isfeatured":true,
             "image":"/uploads/c++2.png"
           },
+          { "id":5,
+          "title":"MongoDB",
+          "slug":"xyz",
+          "description":"Proficient in MongoDB database management. Experienced in schema design, CRUD operations, indexing, and aggregation pipelines.",
+             "price":99,
+          "instrucyor":"xyz",
+          "isfeatured":true,
+          "image":"/uploads/mongodb4.webp"
+         },
           {
             "id":7,
             "title":"JavaScript",
@@ -79,16 +91,7 @@
             "instrucyor":"xyz",
             "isfeatured":false,
             "image":"/uploads/oops2.png"
-          },
-          {
-            "id":9,
-            "title":"TypeScript",
-            "slug":"xyz",
-            "description":"Skilled in using TypeScript to enhance JavaScript codebase with static typing, improving code maintainability, and catching errors early in the development process.",
-           "price":99,
-            "instrucyor":"xyz",
-            "isfeatured":true,
-            "image":"/uploads/typescript.jpg"
           }
+          
     ]
 }
