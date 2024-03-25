@@ -43,16 +43,7 @@
         
         
        
-       {
-        "id":4,
-        "title":"Next.js",
-        "slug":"xyz",
-        "description":"Proficient in building server-side rendered and statically generated React applications with Next.js. Familiar with dynamic routing, data fetching, and serverless deployment.",
-           "price":99,
-        "instrucyor":"xyz",
-        "isfeatured":true,
-        "image":"/uploads/next.png"
-      },
+       
        {
         "id":9,
         "title":"TypeScript",
@@ -62,6 +53,16 @@
         "instrucyor":"xyz",
         "isfeatured":true,
         "image":"/uploads/typescript.jpg"
+      },
+      {
+        "id":4,
+        "title":"Next.js",
+        "slug":"xyz",
+        "description":"Proficient in building server-side rendered and statically generated React applications with Next.js. Familiar with dynamic routing, data fetching, and serverless deployment.",
+           "price":99,
+        "instrucyor":"xyz",
+        "isfeatured":true,
+        "image":"/uploads/next.png"
       },
         {
             "id":6,
