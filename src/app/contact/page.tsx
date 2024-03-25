@@ -6,7 +6,7 @@ import { Button } from "@/componets/ui/moving-border";
 import { toast } from 'react-toastify';
 import { TypewriterEffectSmooth } from "@/componets/ui/typewriter-effect";
 
-function page() {
+function Page() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [isSending, setIsSending] = useState(false);
@@ -76,4 +76,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

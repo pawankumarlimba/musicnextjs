@@ -3,6 +3,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 import Link from "next/link"
 import { Spotlight } from "./ui/Spotlight"
 import { Button } from "./ui/moving-border";
+import Image from "next/image";
 
 const words =`an Electrical Engineering student at NIT Agartala and currently looking to pursue a carrer in field of Software Technology.My passion for Technology stems from my enjoyment in creating usable and functional websites`
 function Herosection() {
@@ -40,7 +41,7 @@ function Herosection() {
     </div>
     </div>
    
-    <img className="items-center justify-center relative overflow-hidden mx-auto  md:py-0 flex  flex-row rounded-[50%] sm:rounded-[10%] lg:sm:rounded-[10%] sm:mt-4 lg:sm:mt-6 border-8 border-white  p-2 lg:sm:pt-2 lg:sm:pb-2 sm:pb-2 sm:pt-2" src="/uploads/logo-p.avif" alt="" />
+    <Image className="items-center justify-center relative overflow-hidden mx-auto  md:py-0 flex  flex-row rounded-[50%] sm:rounded-[10%] lg:sm:rounded-[10%] sm:mt-4 lg:sm:mt-6 border-8 border-white  p-2 lg:sm:pt-2 lg:sm:pb-2 sm:pb-2 sm:pt-2" src="/uploads/logo-p.avif" alt="" />
     </div>
   )
 }

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import { TracingBeam } from "@/componets/ui/tracing-beam";
 
- function page() {
+ function Page() {
   return (
 
 <div className="min-h-screen bg-black py-12 pt-36">
@@ -48,7 +48,7 @@ import { TracingBeam } from "@/componets/ui/tracing-beam";
 }
 
 
-export default page
+export default Page
 
 const dummyContent = [
   {
