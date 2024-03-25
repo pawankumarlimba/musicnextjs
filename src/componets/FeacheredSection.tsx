@@ -37,7 +37,7 @@ function FeacheredSection() {
                className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm"
                >
                 <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
-                    <p className="test-lg sm:text-xl text-black m-1 dark:text-neutral-200">{course.title}</p>
+                    <p className="test-lg sm:text-xl text-black mt-1 mb-1 mr-0.25 ml-0.25 dark:text-neutral-200">{course.title}</p>
                    
                     <Link href={`/courses`}></Link>
                 </div>
