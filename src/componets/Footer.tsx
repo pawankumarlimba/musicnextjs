@@ -7,7 +7,7 @@ function Footer() {
         <div className="max-w-6xl max-auto grid grid-cols-1 sm:grid-cols-2  lg:sm:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8 flex justify-center">
             <div>
                 <h2 className="text-white text-lg font-semibold mb-4">About me</h2>
-                <p className="text-grey-400">As a second-year student at NIT Agartala, I'm deeply passionate about both web development and electrical engineering. My portfolio website serves as a digital canvas where I showcase my projects and skills in these areas. </p>
+                <p className="text-grey-400">As a second-year student at NIT Agartala, I&apos;m deeply passionate about both web development and electrical engineering. My portfolio website serves as a digital canvas where I showcase my projects and skills in these areas. </p>
             </div>
             <div>
             <h2 className="text-white text-lg font-semibold mb-4"> Follow me</h2>

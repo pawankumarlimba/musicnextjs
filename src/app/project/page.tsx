@@ -58,7 +58,7 @@ const dummyContent = [
          <p className="text-base text-black text-teal-600 font-semibold tracking-wide uppercase ">1. User Registration/Login/Logout:</p>
       
         <p>
-        Users should be able to register, login, and logout securely. You'll need to implement authentication mechanisms to manage user sessions.
+        Users should be able to register, login, and logout securely. You&apos;ll need to implement authentication mechanisms to manage user sessions.
         </p>
         <p className="text-base text-black text-teal-600 font-semibold tracking-wide uppercase ">2. Profile Management:</p>
       
@@ -84,7 +84,7 @@ const dummyContent = [
     description: (
       <>
       <p className="text-base text-black text-teal-600 font-semibold tracking-wide uppercase ">1 Project Overview:</p>
-      <p>Briefly describe the project and its objectives. Mention that it's a music course website designed to offer interactive music courses with instructor profiles and a contact form for user inquiries.</p>
+      <p>Briefly describe the project and its objectives. Mention that it&apos;s a music course website designed to offer interactive music courses with instructor profiles and a contact form for user inquiries.</p>
         <p className="text-base text-black text-teal-600 font-semibold tracking-wide uppercase ">2 Course Display:</p>
         <p>course catalog page displaying different music courses with descriptions, instructor details, and course duration.</p>
         <p className="text-base text-black text-teal-600 font-semibold tracking-wide uppercase ">3 Instructor Profiles:</p>
