@@ -41,7 +41,7 @@ function Herosection() {
     </div>
     </div>
    
-    <Image className="items-center justify-center relative overflow-hidden mx-auto  md:py-0 flex  flex-row rounded-[50%] sm:rounded-[10%] lg:sm:rounded-[10%] sm:mt-4 lg:sm:mt-6 border-8 border-white  p-2 lg:sm:pt-2 lg:sm:pb-2 sm:pb-2 sm:pt-2" src="/uploads/logo-p.avif" alt="" width={400} height={400} />
+    <Image className="items-center justify-center relative overflow-hidden mx-auto  md:py-0 flex  flex-row rounded-[50%] sm:rounded-[10%] lg:sm:rounded-[10%] sm:mt-4 lg:sm:mt-6 border-8 border-white  p-2 lg:sm:pt-2 lg:sm:pb-2 sm:pb-2 sm:pt-2 " src="/uploads/logo-p.avif" alt="" width={400} height={400} />
     </div>
   )
 }

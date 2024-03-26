@@ -73,7 +73,8 @@ const dummyContent = [
       <p className="text-base text-black text-teal-600 font-semibold tracking-wide uppercase ">5. Admin Dashboard:</p>
       <p>The admin dashboard should provide an overview of all registered restaurants.</p>
       <p>It should allow the admin to verify whether a restaurant is open or closed. This might involve a manual verification process or integration with a system that tracks restaurant opening hours.</p>
-      
+      <a href="https://github.com/F00DLY/foodly.git" className="text-base text-black text-teal-600 font-semibold tracking-wide uppercase ">6 View project</a>
+       
       </>
     ),
     badge: "next.js",
@@ -95,6 +96,9 @@ const dummyContent = [
         <p> the website on different devices (mobile phones, tablets, laptops) to demonstrate its responsiveness</p>
         <p className="text-base text-black text-teal-600 font-semibold tracking-wide uppercase ">6 Footer:</p>
         <p>Design a footer that includes important links, social media icons, contact information.</p>
+       <a href="https://github.com/pawankumarlimba/musicnextjs-main.git" className="text-center text-black text-teal-600 font-semibold tracking-wide uppercase ">7 View project</a>
+       
+        
         
       </>
     ),
