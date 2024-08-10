@@ -19,7 +19,7 @@ Welcome to my personal portfolio website! This website showcases my projects, sk
 
 ## Hosting Link
 
-You can view my portfolio live at [portfolio-pawankumarlimbas-projects.vercel.app](portfolio-pawankumarlimbas-projects.vercel.app)
+You can view my portfolio live at [portfolio](https://portfolio-pawankumarlimbas-projects.vercel.app/)
 
 ## How to Run Locally
 
@@ -48,6 +48,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Contact
 
-Feel free to reach out to me via [your email](mailto: pawankumarlimba746@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/pawan-kumar-485903270).
+Feel free to reach out to me via [Email ID](mailto:pawankumarlimba746@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/pawan-kumar-485903270).
 
 
